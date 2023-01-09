@@ -1,4 +1,4 @@
-# Computer Vision programs in Pyth
+# Tensorflow Computer Vision
 
  The following repository includes samples projects for computer vision. Including in the repository are: 
  
