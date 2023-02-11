@@ -56,3 +56,7 @@ if __name__ == "__main__":
                         epochs=args.epochs,
                         verbose=1)
     print('Model trained successfully')
+
+    print('Saving the model...')
+    model.save(weights_file)
+    print('Model saved successfully')
