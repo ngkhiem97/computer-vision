@@ -43,12 +43,14 @@ if __name__ == "__main__":
                 loss=args.loss,
                 metrics=[args.metrics]) 
     print('Model compiled successfully')
+    
+    # Use this line if prefer to use TensorBoard
+    # log_dir = config['DEFAULT']['LogDir'] + 'fit/' + datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
+    # if not log_dir:
+    #     os.makedirs(log_dir)
+    # tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
 
     print('Training the model...')
-    log_dir = config['DEFAULT']['LogDir'] + 'fit/' + datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
-    if not log_dir:
-        os.makedirs(log_dir)
-    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
     history = model.fit(train_generator,
                         validation_data=test_generator,
                         epochs=args.epochs,
