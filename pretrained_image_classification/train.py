@@ -44,7 +44,7 @@ if __name__ == "__main__":
                 metrics=[args.metrics]) 
     print('Model compiled successfully')
     
-    # Use this line if prefer to use TensorBoard
+    # Use this line and add callback to model.fit if prefer to use TensorBoard
     # log_dir = config['DEFAULT']['LogDir'] + 'fit/' + datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
     # if not log_dir:
     #     os.makedirs(log_dir)

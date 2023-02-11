@@ -3,6 +3,8 @@ from tensorflow.keras.applications.inception_v3 import InceptionV3
 from tensorflow.keras import layers
 from tensorflow.keras import Model
 
+# pretrain link: https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+
 INPUT_SHAPE = (150, 150, 3)
 
 def get_inception_v3_model(weights_url, weights_file):
