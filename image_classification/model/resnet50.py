@@ -49,6 +49,6 @@ def define_compile_model():
  
   model.compile(optimizer='SGD', 
                 loss='sparse_categorical_crossentropy',
-                metrics = ['accuracy'])
+                metrics = ['accuracy'], options = run_opts)
   
   return model
