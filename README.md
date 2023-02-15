@@ -20,7 +20,7 @@ Details about the project is located at [Image Classification with InceptionV3](
 
 Image classification is a fascinating field of artificial intelligence, and Inception V3 is a neural network architecture that has pushed the boundaries of what's possible in this area. Developed by Google, Inception V3 is designed to accurately classify images with a high degree of accuracy, thanks to its use of deep convolutional neural networks. Its ability to recognize objects, people, and even animals in complex images is truly remarkable. In this project, we trained a Inception V3 model with dogs and cats dataset to classify images into 2 categories, such as dogs and cats.
 
-![Inception V3](imgs/inceptionv3.png)
+![Inception V3](inceptionv3.png)
 
 ## Image Classification with ResNet50
 
@@ -36,5 +36,5 @@ Object localization is an advanced technology that enables machines to detect an
 
 In this project, we trained a CNN model with MNIST dataset to detect and locate digits in images. The model is able to not only detect but also localize the digit in the image, giving us precise information about its position and scale. The MNIST dataset is a popular benchmark in the field of computer vision and machine learning. It consists of a collection of 70,000 grayscale images of handwritten digits, with 60,000 images used for training and 10,000 for testing. 
 
-![Object Localization](imgs/od.png)
+![Object Localization](od.png)
 
