@@ -6,9 +6,7 @@
   <li>Image Classification</li>
   <li>Object Localization</li>
   <li>Object Detection</li>
-  <li>Few Shot Object Detection</li>
   <li>Image Segmentation</li>
-  <li>Visualization and Interpretability</li>
  </ol>
   
  All code sources are implemented from [Tensorflow](https://www.tensorflow.org/). The content of this Github Repository is based on the the course [Advanced Computer Vision with TensorFlow](https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow) from Coursera and DeepLearning.AI.
