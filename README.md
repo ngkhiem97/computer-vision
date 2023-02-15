@@ -15,7 +15,7 @@
 
 ## Image Classification
 
-Details about the project is located at [Image Classification with InceptionV3](.image_classification/README.md).
+Details about the project is located at [Image Classification](.image_classification/README.md).
 
 Image classification is a fascinating field of artificial intelligence, and Inception V3 is a neural network architecture that has pushed the boundaries of what's possible in this area. Developed by Google, Inception V3 is designed to accurately classify images with a high degree of accuracy, thanks to its use of deep convolutional neural networks. Its ability to recognize objects, people, and even animals in complex images is truly remarkable. In this project, we trained a Inception V3 model with dogs and cats dataset to classify images into 2 categories, such as dogs and cats.
 
