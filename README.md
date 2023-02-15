@@ -32,3 +32,9 @@ ResNet50 is a convolutional neural network that is 50 layers deep. You can load 
 
 Details about the project is located at [Object Localization](.object_localization/README.md).
 
+Object localization is an advanced technology that enables machines to detect and locate specific objects within an image or video. It plays a critical role in the fields of computer vision, robotics, and artificial intelligence by facilitating the identification of relevant information and supporting decision-making processes. Object localization enables self-driving cars to detect pedestrians and other vehicles, security cameras to detect intruders, and medical devices to diagnose diseases, among other applications. 
+
+In this project, we trained a CNN model with MNIST dataset to detect and locate digits in images. The model is able to not only detect but also localize the digit in the image, giving us precise information about its position and scale. The MNIST dataset is a popular benchmark in the field of computer vision and machine learning. It consists of a collection of 70,000 grayscale images of handwritten digits, with 60,000 images used for training and 10,000 for testing. 
+
+![Object Localization](imgs/od.png)
+
