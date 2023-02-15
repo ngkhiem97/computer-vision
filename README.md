@@ -3,7 +3,7 @@
  The following repository includes samples projects for computer vision. Including in the repository are: 
  
  <ol>
-  <li>Image Classification with Inception V3</li>
+  <li>Image Classification with InceptionV3</li>
   <li>Image Classification with ResNet50</li>
   <li>Object Localization</li>
   <li>Object Detection</li>
