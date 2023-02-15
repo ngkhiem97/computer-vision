@@ -23,7 +23,7 @@ Image classification is a fascinating field of artificial intelligence, and Ince
 
 ## Object Localization
 
-Details about the project is located at [Object Localization](image_classification).
+Details about the project is located at [Object Localization](object_localization).
 
 Object localization is an advanced technology that enables machines to detect and locate specific objects within an image or video. It plays a critical role in the fields of computer vision, robotics, and artificial intelligence by facilitating the identification of relevant information and supporting decision-making processes. Object localization enables self-driving cars to detect pedestrians and other vehicles, security cameras to detect intruders, and medical devices to diagnose diseases, among other applications. 
 
