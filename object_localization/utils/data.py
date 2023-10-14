@@ -26,6 +26,16 @@ def get_training_dataset(batch_size, strategy):
         dataset = dataset.prefetch(-1)
       return dataset
 
+def get_training_dataset(batch_size, strategy):
+      with strategy.scope():
+        dataset = tfds.load("mnist", split="train", as_supervised=True, try_gcs=True)
+        dataset = dataset.map(read_image_tfds, num_parallel_calls=16)
+        dataset = dataset.shuffle(5000, reshuffle_each_iteration=True)
+        dataset = dataset.repeat()
+        dataset = dataset.batch(batch_size, drop_remainder=True)
+        dataset = dataset.prefetch(-1)
+      return dataset
+
 def get_validation_dataset(strategy):
 	with strategy.scope():
 		dataset = tfds.load("mnist", split="test", as_supervised=True, try_gcs=True)

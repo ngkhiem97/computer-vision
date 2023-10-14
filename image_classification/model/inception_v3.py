@@ -1,7 +1,7 @@
 import urllib
-from tensorflow.keras.applications.inception_v3 import InceptionV3
-from tensorflow.keras import layers
-from tensorflow.keras import Model
+from keras.applications.inception_v3 import InceptionV3
+from keras import layers
+from keras import Model
 
 # pretrain link: https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
 
